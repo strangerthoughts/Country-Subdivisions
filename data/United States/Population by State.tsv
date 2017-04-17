@@ -1,0 +1,53 @@
+countryCode	countryName	landArea	regionCode	regionDensity	regionName	source	stateCode	stateFips	totalPopulation	url	waterArea
+USA	United States	131170.787086	01	36.43902812648554	Alabama	US Census Bureau	AL	1	4779736	https://www.census.gov/geo/maps-data/data/tiger-data.html	4596.557532
+USA	United States	1477953.21158	02	0.48055039525962423	Alaska	US Census Bureau	AK	2	710231	https://www.census.gov/geo/maps-data/data/tiger-data.html	245383.480336
+USA	United States	294207.314414	04	21.726234144557463	Arizona	US Census Bureau	AZ	4	6392017	https://www.census.gov/geo/maps-data/data/tiger-data.html	1026.196264
+USA	United States	134771.261408	05	21.636051852126627	Arkansas	US Census Bureau	AR	5	2915918	https://www.census.gov/geo/maps-data/data/tiger-data.html	2960.539257
+USA	United States	403466.310059	06	92.33473792285719	California	US Census Bureau	CA	6	37253956	https://www.census.gov/geo/maps-data/data/tiger-data.html	20501.11072
+USA	United States	268431.246426	08	18.7355088759625	Colorado	US Census Bureau	CO	8	5029196	https://www.census.gov/geo/maps-data/data/tiger-data.html	1170.101258
+USA	United States	12541.641427	09	284.97840739614696	Connecticut	US Census Bureau	CT	9	3574097	https://www.census.gov/geo/maps-data/data/tiger-data.html	1815.734898
+USA	United States	5046.703785	10	177.9248472376906	Delaware	US Census Bureau	DE	10	897934	https://www.census.gov/geo/maps-data/data/tiger-data.html	1399.060967
+USA	United States	158.11468	11	3805.611218389083	District of Columbia	US Census Bureau	DC	11	601723	https://www.census.gov/geo/maps-data/data/tiger-data.html	18.88497
+USA	United States	138887.481596	12	135.3708036458592	Florida	US Census Bureau	FL	12	18801310	https://www.census.gov/geo/maps-data/data/tiger-data.html	31424.168203
+USA	United States	148959.236603	13	65.03559779793403	Georgia	US Census Bureau	GA	13	9687653	https://www.census.gov/geo/maps-data/data/tiger-data.html	4951.196915
+USA	United States	16634.529975	15	81.77574010473356	Hawaii	US Census Bureau	HI	15	1360301	https://www.census.gov/geo/maps-data/data/tiger-data.html	11678.494458
+USA	United States	214044.680857	16	7.323620440945588	Idaho	US Census Bureau	ID	16	1567582	https://www.census.gov/geo/maps-data/data/tiger-data.html	2397.887804
+USA	United States	143793.362385	17	89.22965418700332	Illinois	US Census Bureau	IL	17	12830632	https://www.census.gov/geo/maps-data/data/tiger-data.html	6202.03808
+USA	United States	92789.193658	18	69.87669301123393	Indiana	US Census Bureau	IN	18	6483802	https://www.census.gov/geo/maps-data/data/tiger-data.html	1537.004191
+USA	United States	144669.296857	19	21.057370611341284	Iowa	US Census Bureau	IA	19	3046355	https://www.census.gov/geo/maps-data/data/tiger-data.html	1076.595005
+USA	United States	211754.095913	20	13.47373229168712	Kansas	US Census Bureau	KS	20	2853118	https://www.census.gov/geo/maps-data/data/tiger-data.html	1345.86893
+USA	United States	102269.141641	21	42.43085382717572	Kentucky	US Census Bureau	KY	21	4339367	https://www.census.gov/geo/maps-data/data/tiger-data.html	2386.569692
+USA	United States	111897.594452	22	40.51357870740154	Louisiana	US Census Bureau	LA	22	4533372	https://www.census.gov/geo/maps-data/data/tiger-data.html	23761.143266
+USA	United States	79882.80068	23	16.62887365856437	Maine	US Census Bureau	ME	23	1328361	https://www.census.gov/geo/maps-data/data/tiger-data.html	11750.312805
+USA	United States	25141.638381	24	229.6410405919759	Maryland	US Census Bureau	MD	24	5773552	https://www.census.gov/geo/maps-data/data/tiger-data.html	6989.579585
+USA	United States	20202.057805	25	324.10703222418584	Massachusetts	US Census Bureau	MA	25	6547629	https://www.census.gov/geo/maps-data/data/tiger-data.html	7133.683836
+USA	United States	146435.07522	26	67.4950313997592	Michigan	US Census Bureau	MI	26	9883640	https://www.census.gov/geo/maps-data/data/tiger-data.html	104051.76584
+USA	United States	206232.309199	27	25.71820594261046	Minnesota	US Census Bureau	MN	27	5303925	https://www.census.gov/geo/maps-data/data/tiger-data.html	18930.454637
+USA	United States	121530.715928	28	24.4160250134456	Mississippi	US Census Bureau	MS	28	2967297	https://www.census.gov/geo/maps-data/data/tiger-data.html	3907.007795
+USA	United States	178039.716301	29	33.638151781116726	Missouri	US Census Bureau	MO	29	5988927	https://www.census.gov/geo/maps-data/data/tiger-data.html	2500.563712
+USA	United States	376961.87867	30	2.624708374997658	Montana	US Census Bureau	MT	30	989415	https://www.census.gov/geo/maps-data/data/tiger-data.html	3869.200368
+USA	United States	198973.681461	31	9.178806898428792	Nebraska	US Census Bureau	NE	31	1826341	https://www.census.gov/geo/maps-data/data/tiger-data.html	1356.219849
+USA	United States	284331.937541	32	9.497881326154529	Nevada	US Census Bureau	NV	32	2700551	https://www.census.gov/geo/maps-data/data/tiger-data.html	2047.761678
+USA	United States	23187.259277	33	56.77557594337327	New Hampshire	US Census Bureau	NH	33	1316470	https://www.census.gov/geo/maps-data/data/tiger-data.html	1026.959156
+USA	United States	19047.341691	34	461.581156185917	New Jersey	US Census Bureau	NJ	34	8791894	https://www.census.gov/geo/maps-data/data/tiger-data.html	3544.030209
+USA	United States	314160.74824	35	6.554539392766249	New Mexico	US Census Bureau	NM	35	2059179	https://www.census.gov/geo/maps-data/data/tiger-data.html	756.659673
+USA	United States	122056.806947	36	158.7629767212773	New York	US Census Bureau	NY	36	19378102	https://www.census.gov/geo/maps-data/data/tiger-data.html	19239.9241
+USA	United States	125919.791207	37	75.72664240146797	North Carolina	US Census Bureau	NC	37	9535483	https://www.census.gov/geo/maps-data/data/tiger-data.html	13471.186331
+USA	United States	178711.239147	38	3.7635629589404633	North Dakota	US Census Bureau	ND	38	672591	https://www.census.gov/geo/maps-data/data/tiger-data.html	4396.568298
+USA	United States	105828.706692	39	109.0111025695081	Ohio	US Census Bureau	OH	39	11536504	https://www.census.gov/geo/maps-data/data/tiger-data.html	10269.012119
+USA	United States	177660.021556	40	21.115335724630324	Oklahoma	US Census Bureau	OK	40	3751351	https://www.census.gov/geo/maps-data/data/tiger-data.html	3377.212498
+USA	United States	248607.802255	41	15.410111690985554	Oregon	US Census Bureau	OR	41	3831074	https://www.census.gov/geo/maps-data/data/tiger-data.html	6191.433228
+USA	United States	115883.064314	42	109.61376517953717	Pennsylvania	US Census Bureau	PA	42	12702379	https://www.census.gov/geo/maps-data/data/tiger-data.html	3397.122731
+USA	United States	2677.566454	44	393.1058362445409	Rhode Island	US Census Bureau	RI	44	1052567	https://www.census.gov/geo/maps-data/data/tiger-data.html	1323.668539
+USA	United States	77856.841944	45	59.408574564671916	South Carolina	US Census Bureau	SC	45	4625364	https://www.census.gov/geo/maps-data/data/tiger-data.html	5075.831885
+USA	United States	196349.580075	46	4.146583861748042	South Dakota	US Census Bureau	SD	46	814180	https://www.census.gov/geo/maps-data/data/tiger-data.html	3379.099963
+USA	United States	106797.885992	47	59.42163499823745	Tennessee	US Census Bureau	TN	47	6346105	https://www.census.gov/geo/maps-data/data/tiger-data.html	2355.218865
+USA	United States	676586.997978	48	37.165303316717946	Texas	US Census Bureau	TX	48	25145561	https://www.census.gov/geo/maps-data/data/tiger-data.html	19074.619314
+USA	United States	212818.329473	49	12.987062753683775	Utah	US Census Bureau	UT	49	2763885	https://www.census.gov/geo/maps-data/data/tiger-data.html	7063.566754
+USA	United States	23871.030489	50	26.213405419943953	Vermont	US Census Bureau	VT	50	625741	https://www.census.gov/geo/maps-data/data/tiger-data.html	1035.236182
+USA	United States	102278.849309	51	78.2275519724287	Virginia	US Census Bureau	VA	51	8001024	https://www.census.gov/geo/maps-data/data/tiger-data.html	8507.698663
+USA	United States	172119.00161	53	39.06913203712953	Washington	US Census Bureau	WA	53	6724540	https://www.census.gov/geo/maps-data/data/tiger-data.html	12541.835586
+USA	United States	62258.675601	54	29.76282392955749	West Virginia	US Census Bureau	WV	54	1852994	https://www.census.gov/geo/maps-data/data/tiger-data.html	496.845871
+USA	United States	140268.064888	55	40.543697558962506	Wisconsin	US Census Bureau	WI	55	5686986	https://www.census.gov/geo/maps-data/data/tiger-data.html	29366.760483
+USA	United States	251470.069067	56	2.2413243933608307	Wyoming	US Census Bureau	WY	56	563626	https://www.census.gov/geo/maps-data/data/tiger-data.html	1864.445306
+USA	United States	8867.536532	72	420.16054701944137	Puerto Rico	US Census Bureau	PR	72	3725789	https://www.census.gov/geo/maps-data/data/tiger-data.html	4923.745357
