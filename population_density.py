@@ -109,22 +109,21 @@ class SubdivisionDatabase:
 
 		return data
 	def _getDefaultConfiguration(self, kwargs):
-
+		kwargs['area_col'] 			= kwargs.get('area_col', 	'totalArea')
+		kwargs['area_multiplier'] 	= kwargs.get('area_multiplier', 1)
+		kwargs['country_name'] 		= kwargs.get('country_name', 'countryName')
+		kwargs['country_code'] 		= kwargs.get('country_code', 'countryCode')
 		kwargs['density_col'] 		= kwargs.get('density_col', 'totalPopulationDensity')
-		kwargs['skiprows'] 			= kwargs.get('skiprows', 0)
+		kwargs['ensemble'] = kwargs.get('ensemble', False)
+		kwargs['exclude']			= kwargs.get('exclude', [])
 		kwargs['pop_col'] 			= kwargs.get('pop_col', 'totalPopulation')
 		kwargs['region_code'] 		= kwargs.get('region_code', 'regionCode')
 		kwargs['region_name']		= kwargs.get('region_name', 'regionName')
 		kwargs['region_type'] 		= kwargs.get('region_type', 'regionType')
-		kwargs['area_col'] 			= kwargs.get('area_col', 	'totalArea')
-		kwargs['country_name'] 		= kwargs.get('country_name', 'countryName')
-		kwargs['country_code'] 		= kwargs.get('country_code', 'countryCode')
-		kwargs['area_multiplier'] 	= kwargs.get('area_multiplier', 1)
-		kwargs['source']			= kwargs.get('source', "")
-		kwargs['ensemble'] = kwargs.get('ensemble', False)
-		kwargs['url']				= kwargs.get("url", "")
 		kwargs['sheetname'] 		= kwargs.get("sheetname", 0)
-
+		kwargs['skiprows'] 			= kwargs.get('skiprows', 0)
+		kwargs['source']			= kwargs.get('source', "")
+		kwargs['url']				= kwargs.get("url", "")
 		return kwargs
 	def parseDataset(self, configuration):
 		""" Opens and parses a dataset.
@@ -181,6 +180,9 @@ class SubdivisionDatabase:
 		"""
 		regions = list()
 		for row in dataset:
+
+			if len(variables['exclude']) > 0:
+				if row['regionType'] in variables['exclude']: continue
 			pop = tonum(row[variables['pop_col']])
 			area= tonum(row[variables['area_col']])
 
@@ -281,6 +283,16 @@ class SubdivisionDatabase:
 				'region_type': "Commune"
 			},
 			{
+				'filename': "data/United Kingdom/UK Localities.tsv",
+				'url': "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland",
+				'source': "Office for National Statistics",
+
+				'base_year': 2015,
+				'countryCode': "GBR",
+				'countryName': "United Kingdom",
+				'exclude': ['metropolitan county']
+			},
+			{
 			'filename': 'data/Combined Country Subdivision Table.xlsx',
 			'source': '',
 			'url': '',
@@ -355,8 +367,6 @@ class PopulationDensity:
 				top: bool; default True
 					Whether to grab the densist or least dense regions.
 		"""
-		if DEBUG:
-			print("getTopRegions()")
 		regions = sorted(regions, key = lambda s: s[self.density_column])
 		#regions = sorted(regions, key = lambda r: r[self.population_column] / r[self.area_column])
 		if top:
